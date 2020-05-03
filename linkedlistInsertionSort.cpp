@@ -91,7 +91,10 @@ int main()
     cin>>a;
     obj.insert(a);
   }
-/*  obj.insert(10);
+  cout<<endl;
+ //alternative way for inserting elements 
+/*
+  obj.insert(10);
   obj.insert(2);
   obj.insert(8);
   obj.insert(3);
@@ -99,7 +102,8 @@ int main()
 */
   cout<<"UNSORTED"<<endl;
   obj.display();
-  cout<<"NULL"<<endl;
+  cout<<"NULL \n"<<endl;
+  
   obj.ssort();
   cout<<"SORTED"<<endl;
   obj.display();
